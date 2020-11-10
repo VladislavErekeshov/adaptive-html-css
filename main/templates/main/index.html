@@ -1,0 +1,108 @@
+{% load static %}
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Юг металл</title>
+	<!-- Responsive starts here -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="icon" href="{% static 'main/images/favicon.png' %}" type="image/x-icon">
+	<link rel="shortcut icon" href="{% static 'main/images/favicon1.png' %}" type="image/x-icon"> 
+	<link rel="stylesheet" type="text/css" href="{% static 'main/main2.css' %}">
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav">
+				<img src="{% static 'main/images/logo.png' %}" class="logo">
+				<ul class="menu">
+					<li>
+						<a href="#">
+							Главная страница
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Стоимость
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Услуги
+						</a>
+					</li>
+				</ul>
+				<a href="tel:+79892624608" class="tel">
+					+7 989 262-46-08
+				</a>
+				<button class="menu-open">
+					<img src="{% static 'main/images/menu.svg' %}" alt="Open menu">
+				</button>
+			</div>
+			<div class="offer">
+
+				<h1>
+					<span style="color: rgb(082, 132, 246);">Юг</span>металл
+				</h1>
+	
+			</div>
+		</div>
+	</header>
+	<section id="about" class="about">
+		<div class="container">
+			<h2>Почему так важно сдавать металл?</h2>
+			<div class="description">
+				<div class="desc-left">
+					<h3>Забота об экологии</h3>
+					<h4 style="color: rgb(66, 66, 66);">
+						Переработка лома вредит окружающей среде гораздо меньше и обходится дешевле, чем добыча и обработка руды. Кроме того, она позволяет сократить цикл производства металла и экономит электроэнергию. Сдать металлолом на переработку — значит внести вклад в защиту окружающей среды и избавиться от лишнего на своей территории или производстве.
+					</h4>
+				</div>
+				<div class="desc-right">
+					<h3>Возможность заработать</h3>
+					<h4 style="color: rgb(66, 66, 66);">
+						Сегодня утилизация металлолома очень важна для населения. Объем природных ископаемых с каждым годом уменьшается, но специалистам нужно где-то находить новые ресурсы, сырье, чтобы построить дополнительные объекты, различные по своей первоначальной конструкции. Более того, ваш в сохранение ресурсов планеты ещё и хорошо оплачивается. Таким образом, и вы остаётесь в выйгрыше, и общество получает ресурсы на переработку.
+					</h4>
+				</div>			
+			</div>
+			<div class="gallery">
+				<img src="{% static 'main/images/img1.png' %}" alt="Event photo 1">
+				<img src="{% static 'main/images/img2.png' %}" alt="Event photo 2">
+				<img src="{% static 'main/images/img3.png' %}" alt="Event photo 3">
+			</div>
+			<div class="company">
+				<h2>Немного о компании "Юг Металл"</h2>
+				<div class="description">
+					<div class="desc-company">
+						<h4 style="color: rgb(66, 66, 66);">
+							Компания "Юг Металл" является достойным партнером как для организаций, так и для частных лиц, занимающихся заготовкой и реализацией лома.
+В течении всей своей деятельности организацией была построена должная ценовая политика и качественная работа с поставщиками. Нашей компании и ее сотрудникам свойственны оперативность, точность, честность и добросовестность относительно работы с клиентами и приема материалов.
+Индивидуальный подход к каждому клиенту, заключение договоров на крупные партии лома цветных металлов от организаций, прием лома от частных лиц создают выгодные условия для сотрудничества.
+						</h4>
+					</div>		
+				</div>
+			</div>
+			<div class="map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acec76657ff16fea1ab685223d3b6f7abc7db74da13b7e6ab418fb13d3107a5dc&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+			</div>
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer-text">
+				<p>
+					©2016-2020 ООО "Юг металл"
+                </p>
+                <p>
+					+7 989 262-46-08
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script type="text/javascript" src="{% static 'main/js/main.js' %}"></script>
+</body>
+</html>
